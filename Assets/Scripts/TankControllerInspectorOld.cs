@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEditor;
 
-[CustomEditor(typeof(TankController))]
-public class SpawnZoneInspector : Editor { 
-    private TankController tankController;
+[CustomEditor(typeof(TankControllerOld))]
+public class TankControllerInspectorOld : Editor { 
+    private TankControllerOld tankController;
 
     public void OnEnable() {
-        tankController = target as TankController;
+        tankController = target as TankControllerOld;
     }
 
     void OnSceneGUI() {

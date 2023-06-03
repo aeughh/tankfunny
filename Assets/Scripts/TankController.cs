@@ -3,36 +3,41 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TankController : MonoBehaviour {
+    [Header("Rigidbody")]
     [SerializeField] private Rigidbody rigidBody;
-    [SerializeField] private Transform centerOfMass;
 
-    public TankWheel[] tankWheels;
-    public LayerMask tankWheelLayerMask;
+    [Header("Treads")]
+    [SerializeField] private GameObject treadPrefab;
+    [SerializeField] private Transform point;
+
+    [SerializeField] private int numberOfTreads;
+    [SerializeField] private float treadSpacingDistance;
+    [SerializeField] private float tensioningSpeed; // unused currently
+
+    [SerializeField] private List<GameObject> treadObjects = new List<GameObject>();
 
     void Start() {
-        rigidBody.centerOfMass = centerOfMass.position;
-    }
+        for(int i = 0; i < numberOfTreads; i++) {
+            var spawnPos = point.position + new Vector3(0, i * treadSpacingDistance, 0); // Radius is just the distance away from the point
 
-    void FixedUpdate() {
-        foreach(var wheelInstance in tankWheels) {
-            RaycastHit leftHit;
-            Physics.Raycast(wheelInstance.wheel.position + (wheelInstance.wheel.transform.right * -wheelInstance.width), transform.TransformDirection(-Vector3.up), out leftHit, Mathf.Infinity, tankWheelLayerMask);//wheelInstance.radius
-            Debug.DrawRay(wheelInstance.wheel.position + (wheelInstance.wheel.transform.right * -wheelInstance.width), transform.TransformDirection(-Vector3.up) * leftHit.distance, Color.yellow);
+            GameObject treadInstance = Instantiate(treadPrefab, spawnPos, Quaternion.identity);
+            
+            // treadInstance.transform.LookAt(point.position);
+            treadInstance.transform.Rotate(90, 0, 0);
 
-            RaycastHit middleHit;
-            Physics.Raycast(wheelInstance.wheel.position, transform.TransformDirection(-Vector3.up), out middleHit, Mathf.Infinity, tankWheelLayerMask);//wheelInstance.radius
-            Debug.DrawRay(wheelInstance.wheel.transform.position, transform.TransformDirection(-Vector3.up) * middleHit.distance, Color.yellow);
+            treadObjects.Add(treadInstance);
+            
+            Debug.Log(i);
 
-            RaycastHit rightHit;
-            Physics.Raycast(wheelInstance.wheel.position + (wheelInstance.wheel.transform.right * wheelInstance.width), transform.TransformDirection(-Vector3.up), out rightHit, Mathf.Infinity, tankWheelLayerMask);//wheelInstance.radius
-            Debug.DrawRay(wheelInstance.wheel.position + (wheelInstance.wheel.transform.right * wheelInstance.width), transform.TransformDirection(-Vector3.up) * rightHit.distance, Color.yellow);
+            if(i == 0) {
+                Debug.Log("Wow");
+            } else {
+                treadObjects[i - 1].GetComponent<HingeJoint>().connectedBody = treadObjects[i].GetComponent<Rigidbody>();
+
+                // if(i == numberOfTreads - 1) {
+                //     treadObjects[numberOfTreads - 1].GetComponent<HingeJoint>().connectedBody = treadObjects[0].GetComponent<Rigidbody>();
+                // }
+            }
         }
     }
-}
-
-[System.Serializable]
-public class TankWheel {
-    public Transform wheel;
-    public float radius;
-    public float width;
 }
