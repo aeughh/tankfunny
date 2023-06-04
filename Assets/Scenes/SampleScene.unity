@@ -530,37 +530,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &945462486
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 945462487}
-  m_Layer: 0
-  m_Name: Point
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &945462487
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 945462486}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1451188929
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,17 +579,17 @@ PrefabInstance:
     - target: {fileID: 3453875937501606075, guid: 183f3137f966a0141ae6d1dc617094b6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.88
+      value: 1.99
       objectReference: {fileID: 0}
     - target: {fileID: 3453875937501606075, guid: 183f3137f966a0141ae6d1dc617094b6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 3453875937501606075, guid: 183f3137f966a0141ae6d1dc617094b6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.32
+      value: -4.61
       objectReference: {fileID: 0}
     - target: {fileID: 3453875937501606075, guid: 183f3137f966a0141ae6d1dc617094b6,
         type: 3}
@@ -657,25 +626,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3962537444959258557, guid: 183f3137f966a0141ae6d1dc617094b6,
-        type: 3}
-      propertyPath: point
-      value: 
-      objectReference: {fileID: 945462487}
-    - target: {fileID: 3962537444959258557, guid: 183f3137f966a0141ae6d1dc617094b6,
-        type: 3}
-      propertyPath: numberOfTreads
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 3962537444959258557, guid: 183f3137f966a0141ae6d1dc617094b6,
-        type: 3}
-      propertyPath: treadSpacingDistance
-      value: 0.6
-      objectReference: {fileID: 0}
     - target: {fileID: 6137347379359144614, guid: 183f3137f966a0141ae6d1dc617094b6,
         type: 3}
       propertyPath: m_Name
       value: Tank
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355718358062870761, guid: 183f3137f966a0141ae6d1dc617094b6,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355718358062870761, guid: 183f3137f966a0141ae6d1dc617094b6,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
