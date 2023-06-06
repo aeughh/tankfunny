@@ -15,9 +15,16 @@ public class TankController : MonoBehaviour {
     [SerializeField] private float driveWheelRadius;
     [SerializeField] private float driveForce;
 
+    private void Start() {
+        foreach(var tensioner in tensioners) {
+            tensioner.joint.autoConfigureConnectedAnchor = false;
+            // tensioner.initialTensionerPosition = tensioner.joint.transform.parent.InverseTransformPoint(tensioner.joint.transform.position);
+            // Debug.Log(tensioner.initialTensionerPosition);
+        }
+    }
+
     private void Update() {
         foreach(var tensioner in tensioners) {
-            // Requires Auto Configure Connected Anchor to be false
             tensioner.joint.connectedAnchor = Vector3.Lerp(tensioner.joint.connectedAnchor, tensioner.tensionerTargetPosition, tensioner.tensionSpeed);
         }
     }
@@ -92,7 +99,8 @@ public class Axle {
 
 [System.Serializable]
 public class Tensioner {
-    public ConfigurableJoint joint;
+    public Joint joint;
+    // public Vector3 initialTensionerPosition;
     public Vector3 tensionerTargetPosition;
     public float tensionSpeed;
 }
