@@ -433,7 +433,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.0000019073489, z: -0.23}
+  m_ConnectedAnchor: {x: 0, y: -0.0000014305117, z: -0.23000048}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -457,7 +457,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &615518313249082876
@@ -590,7 +590,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &7985631143597583939 stripped
@@ -705,7 +705,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.2299991}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -729,7 +729,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &7674415111618932624 stripped
@@ -874,7 +874,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &1281459712278779857
@@ -989,7 +989,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.22999957}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1013,7 +1013,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &1430098279335095074
@@ -1128,7 +1128,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: -0.000002861023, z: -0.23000002}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1152,7 +1152,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &1834687582088107001
@@ -1261,7 +1261,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.22999957}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1285,7 +1285,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &9164391143125102662 stripped
@@ -1424,7 +1424,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &8986712219437014909 stripped
@@ -1563,7 +1563,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &8648421835810768437 stripped
@@ -1678,7 +1678,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.22999999}
+  m_ConnectedAnchor: {x: 0, y: 0.00000008940697, z: -0.22999993}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -1702,7 +1702,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &8745477999008696985 stripped
@@ -1847,7 +1847,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &2820795703461836830
@@ -1986,7 +1986,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &2903179109033903459
@@ -2095,7 +2095,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.0000019669533, z: -0.22999996}
+  m_ConnectedAnchor: {x: 0, y: -0.0000014901161, z: -0.23000044}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -2119,7 +2119,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &5625631000023705308 stripped
@@ -2234,7 +2234,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.22999957}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -2258,7 +2258,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &5745273297172086653 stripped
@@ -2379,7 +2379,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.22999957}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -2403,7 +2403,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &4020512725982857459
@@ -2542,7 +2542,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1001 &4279266863922681880
@@ -2651,7 +2651,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.22999862}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -2675,7 +2675,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &6718078822625688487 stripped
@@ -2747,10 +2747,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6662943492756634952, guid: 74950dac63793294fa7d8a10e26ae43e,
+        type: 3}
+      propertyPath: m_ConnectedBody
+      value: 
+      objectReference: {fileID: 4304631321369648385}
     - target: {fileID: 7374762665309873087, guid: 74950dac63793294fa7d8a10e26ae43e,
         type: 3}
-      propertyPath: m_Mass
-      value: 25
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8006553009269317573, guid: 74950dac63793294fa7d8a10e26ae43e,
         type: 3}
@@ -2764,7 +2769,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8006553009269317573, guid: 74950dac63793294fa7d8a10e26ae43e,
         type: 3}
       insertIndex: 1
-      addedObject: {fileID: 7729427455471682043}
+      addedObject: {fileID: 3388092763423734999}
   m_SourcePrefab: {fileID: 100100000, guid: 74950dac63793294fa7d8a10e26ae43e, type: 3}
 --- !u!1 &2337480399759335931 stripped
 GameObject:
@@ -2772,7 +2777,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5723120203118870078}
   m_PrefabAsset: {fileID: 0}
---- !u!59 &7729427455471682043
+--- !u!59 &3388092763423734999
 HingeJoint:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2784,7 +2789,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.000001013279, z: -0.23000187}
+  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -2808,7 +2813,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &2969262017419500929 stripped
@@ -2947,7 +2952,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &3009240441728071670 stripped
@@ -3092,7 +3097,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &6109721635864884439 stripped
@@ -3207,7 +3212,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.2299991}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -3231,7 +3236,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &5780689912642608921 stripped
@@ -3370,7 +3375,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &5915973937168869100 stripped
@@ -3509,7 +3514,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &6027536306949915214 stripped
@@ -3624,7 +3629,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.22999957}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -3648,7 +3653,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &6033239645519738860 stripped
@@ -3757,7 +3762,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.2299991}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -3781,7 +3786,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &4537951616295937498 stripped
@@ -3896,7 +3901,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.22999814}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -3920,7 +3925,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &4372373185754567157 stripped
@@ -4059,7 +4064,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &4304631321369648385 stripped
@@ -4204,7 +4209,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &7440866008315088901 stripped
@@ -4337,7 +4342,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &1061094252963315871 stripped
@@ -4476,7 +4481,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &604840306812828571 stripped
@@ -4597,7 +4602,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.0000014305116, z: -0.23000096}
+  m_ConnectedAnchor: {x: 0, y: -0.0000014007092, z: -0.23000056}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -4621,7 +4626,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &8083301582710701630 stripped
@@ -4736,7 +4741,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: -0.00000047683716, z: -0.22999907}
+  m_ConnectedAnchor: {x: 0, y: -0.0000009536743, z: -0.22999954}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -4760,7 +4765,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &8240709897259677431 stripped
@@ -4875,7 +4880,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.2299991}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -4899,7 +4904,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!4 &8312700678404847994 stripped
@@ -5008,7 +5013,7 @@ HingeJoint:
   m_Anchor: {x: 0, y: 0, z: 0.27}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0, z: -0.23000002}
+  m_ConnectedAnchor: {x: 0, y: 0.000000029802322, z: -0.2299991}
   serializedVersion: 2
   m_UseSpring: 0
   m_Spring:
@@ -5032,7 +5037,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!54 &2033477473966102310 stripped

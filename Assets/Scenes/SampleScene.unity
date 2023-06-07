@@ -626,10 +626,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3962537444959258557, guid: 183f3137f966a0141ae6d1dc617094b6,
+        type: 3}
+      propertyPath: tensioners.Array.data[0].tensionerTargetPosition.z
+      value: -4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962537444959258557, guid: 183f3137f966a0141ae6d1dc617094b6,
+        type: 3}
+      propertyPath: tensioners.Array.data[1].tensionerTargetPosition.z
+      value: -4.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6137347379359144614, guid: 183f3137f966a0141ae6d1dc617094b6,
         type: 3}
       propertyPath: m_Name
       value: Tank
+      objectReference: {fileID: 0}
+    - target: {fileID: 7355718358062870761, guid: 183f3137f966a0141ae6d1dc617094b6,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

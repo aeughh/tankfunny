@@ -31,41 +31,41 @@ public class TankController : MonoBehaviour {
 
     private void FixedUpdate() {
         // Left Sprocket
-        Collider[] leftHitColliders = Physics.OverlapSphere(leftSprocket.position + new Vector3(0, -0.25f, 0), driveWheelRadius, treadLayerMask);
-        foreach(var leftCollider in leftHitColliders) {
-            Debug.DrawRay(leftCollider.transform.position, new Vector3(0, driveWheelRadius, 0), Color.green, 0.1f);
+        // Collider[] leftHitColliders = Physics.OverlapSphere(leftSprocket.position + new Vector3(0, -0.25f, 0), driveWheelRadius, treadLayerMask);
+        // foreach(var leftCollider in leftHitColliders) {
+        //     Debug.DrawRay(leftCollider.transform.position, new Vector3(0, driveWheelRadius, 0), Color.green, 0.1f);
 
-            if(Input.GetKey(KeyCode.W)) {
-                leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
-            }
-            if(Input.GetKey(KeyCode.S)) {
-                leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
-            }
-            if(Input.GetKey(KeyCode.A)) {
-                leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
-            }
-            if(Input.GetKey(KeyCode.D)) {
-                leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
-            }
-        }
-        // Right Sprocket
-        Collider[] rightHitColliders = Physics.OverlapSphere(rightSprocket.position + new Vector3(0, -0.25f, 0), driveWheelRadius, treadLayerMask);
-        foreach(var rightCollider in rightHitColliders) {
-            Debug.DrawRay(rightCollider.transform.position, new Vector3(0, driveWheelRadius, 0), Color.green, 0.1f);
+        //     if(Input.GetKey(KeyCode.W)) {
+        //         leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
+        //     }
+        //     if(Input.GetKey(KeyCode.S)) {
+        //         leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
+        //     }
+        //     if(Input.GetKey(KeyCode.A)) {
+        //         leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
+        //     }
+        //     if(Input.GetKey(KeyCode.D)) {
+        //         leftCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
+        //     }
+        // }
+        // // Right Sprocket
+        // Collider[] rightHitColliders = Physics.OverlapSphere(rightSprocket.position + new Vector3(0, -0.25f, 0), driveWheelRadius, treadLayerMask);
+        // foreach(var rightCollider in rightHitColliders) {
+        //     Debug.DrawRay(rightCollider.transform.position, new Vector3(0, driveWheelRadius, 0), Color.green, 0.1f);
 
-            if(Input.GetKey(KeyCode.W)) {
-                rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
-            }
-            if(Input.GetKey(KeyCode.S)) {
-                rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
-            }
-            if(Input.GetKey(KeyCode.A)) {
-                rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
-            }
-            if(Input.GetKey(KeyCode.D)) {
-                rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
-            }
-        }
+        //     if(Input.GetKey(KeyCode.W)) {
+        //         rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
+        //     }
+        //     if(Input.GetKey(KeyCode.S)) {
+        //         rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
+        //     }
+        //     if(Input.GetKey(KeyCode.A)) {
+        //         rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, -driveForce);
+        //     }
+        //     if(Input.GetKey(KeyCode.D)) {
+        //         rightCollider.GetComponent<Rigidbody>().AddRelativeForce(0, 0, driveForce);
+        //     }
+        // }
 
 
         //axles
