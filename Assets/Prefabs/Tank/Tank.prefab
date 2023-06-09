@@ -423,7 +423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681520235545431646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: -0.68436915}
+  m_LocalPosition: {x: 0, y: 1.52, z: -0.68436915}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -441,9 +441,9 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681520235545431646}
   serializedVersion: 4
-  m_Mass: 10000
+  m_Mass: 5000
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -455,7 +455,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 0
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -941,6 +941,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5277341066687580174}
+  - component: {fileID: 5098517528857581595}
+  - component: {fileID: 1395533752878591811}
   m_Layer: 0
   m_Name: Barrel
   m_TagString: Untagged
@@ -966,6 +968,135 @@ Transform:
   m_Father: {fileID: 8381395394104951655}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &5098517528857581595
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4458789069818736590}
+  serializedVersion: 4
+  m_Mass: 100
+  m_Drag: 0
+  m_AngularDrag: 1
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 0
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!153 &1395533752878591811
+ConfigurableJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4458789069818736590}
+  m_ConnectedBody: {fileID: 7578462496836975093}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
+  serializedVersion: 3
+  m_SecondaryAxis: {x: 0, y: 1, z: 0}
+  m_XMotion: 0
+  m_YMotion: 0
+  m_ZMotion: 0
+  m_AngularXMotion: 0
+  m_AngularYMotion: 0
+  m_AngularZMotion: 0
+  m_LinearLimitSpring:
+    spring: 0
+    damper: 0
+  m_LinearLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularXLimitSpring:
+    spring: 0
+    damper: 0
+  m_LowAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_HighAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularYZLimitSpring:
+    spring: 0
+    damper: 0
+  m_AngularYLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularZLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_TargetPosition: {x: 0, y: 0, z: 0}
+  m_TargetVelocity: {x: 0, y: 0, z: 0}
+  m_XDrive:
+    serializedVersion: 4
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+    useAcceleration: 0
+  m_YDrive:
+    serializedVersion: 4
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+    useAcceleration: 0
+  m_ZDrive:
+    serializedVersion: 4
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+    useAcceleration: 0
+  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
+  m_RotationDriveMode: 0
+  m_AngularXDrive:
+    serializedVersion: 4
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+    useAcceleration: 0
+  m_AngularYZDrive:
+    serializedVersion: 4
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+    useAcceleration: 0
+  m_SlerpDrive:
+    serializedVersion: 4
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+    useAcceleration: 0
+  m_ProjectionMode: 0
+  m_ProjectionDistance: 0.1
+  m_ProjectionAngle: 180
+  m_ConfiguredInWorldSpace: 0
+  m_SwapBodies: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &4858398056009293267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,8 +1299,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3453875937501606075}
-  - component: {fileID: 7355718358062870761}
   - component: {fileID: 3962537444959258557}
+  - component: {fileID: 7355718358062870761}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -1195,6 +1326,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3962537444959258557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137347379359144614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f463138071dedba43ae027ba2c11f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testTarget: {fileID: 0}
+  tensioners:
+  - joint: {fileID: 3418332566250827607}
+    tensionerTargetPosition: {x: -2, y: 0.5, z: -4.3}
+    tensionSpeed: 0.05
+  - joint: {fileID: 5056012835551115883}
+    tensionerTargetPosition: {x: 2, y: 0.5, z: -4.3}
+    tensionSpeed: 0.05
+  axles:
+  - leftWheel: {fileID: 6485181777485815800}
+    rightWheel: {fileID: 3505267044858825412}
+    wheelForce: 10000
+  - leftWheel: {fileID: 8856763129189188133}
+    rightWheel: {fileID: 1419549351717902105}
+    wheelForce: 10000
+  - leftWheel: {fileID: 7484335295961255967}
+    rightWheel: {fileID: 1046938432231769379}
+    wheelForce: 10000
+  - leftWheel: {fileID: 1058816589325537260}
+    rightWheel: {fileID: 7488192799441640144}
+    wheelForce: 10000
+  - leftWheel: {fileID: 7057158787949448306}
+    rightWheel: {fileID: 624552565095373134}
+    wheelForce: 10000
+  - leftWheel: {fileID: 5143339430143528722}
+    rightWheel: {fileID: 3330979612844251694}
+    wheelForce: 10000
+  - leftWheel: {fileID: 5465879138594420271}
+    rightWheel: {fileID: 2486127339687256851}
+    wheelForce: 10000
+  sensitivity: 5
+  aggressiveTurnAngle: 10
+  controller: {fileID: 0}
+  turretRigidBody: {fileID: 7578462496836975093}
+  turretTurnTorque: 1
+  turretPID:
+    proportionalGain: 1
+    integralGain: 0.5
+    derivativeGain: 1
+    outputMin: -1
+    outputMax: 1
+    integralSaturation: 0
+    derivativeMeasurement: 0
+    valueLast: 0
+    errorLast: 0
+    integrationStored: 0
+    velocity: 0
+    derivativeInitialized: 1
+  barrelRigidBody: {fileID: 5098517528857581595}
+  barrelTurnTorque: 1
+  barrelPID:
+    proportionalGain: 1
+    integralGain: 0.5
+    derivativeGain: 1
+    outputMin: -1
+    outputMax: 1
+    integralSaturation: 0
+    derivativeMeasurement: 0
+    valueLast: 0
+    errorLast: 0
+    integrationStored: 0
+    velocity: 0
+    derivativeInitialized: 0
 --- !u!54 &7355718358062870761
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1222,55 +1428,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &3962537444959258557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6137347379359144614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f463138071dedba43ae027ba2c11f267, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidBody: {fileID: 7355718358062870761}
-  tensioners:
-  - joint: {fileID: 3418332566250827607}
-    tensionerTargetPosition: {x: -2, y: 0.5, z: -4.33}
-    tensionSpeed: 0.01
-  - joint: {fileID: 5056012835551115883}
-    tensionerTargetPosition: {x: 2, y: 0.5, z: -4.33}
-    tensionSpeed: 0.01
-  axles:
-  - leftWheel: {fileID: 6485181777485815800}
-    rightWheel: {fileID: 3505267044858825412}
-    wheelForce: 5000
-  - leftWheel: {fileID: 8856763129189188133}
-    rightWheel: {fileID: 1419549351717902105}
-    wheelForce: 5000
-  - leftWheel: {fileID: 7484335295961255967}
-    rightWheel: {fileID: 1046938432231769379}
-    wheelForce: 5000
-  - leftWheel: {fileID: 1058816589325537260}
-    rightWheel: {fileID: 7488192799441640144}
-    wheelForce: 5000
-  - leftWheel: {fileID: 7057158787949448306}
-    rightWheel: {fileID: 624552565095373134}
-    wheelForce: 5000
-  - leftWheel: {fileID: 5143339430143528722}
-    rightWheel: {fileID: 3330979612844251694}
-    wheelForce: 5000
-  - leftWheel: {fileID: 5465879138594420271}
-    rightWheel: {fileID: 2486127339687256851}
-    wheelForce: 5000
-  treadLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  leftSprocket: {fileID: 0}
-  rightSprocket: {fileID: 2232751264072692533}
-  driveWheelRadius: 0.5
-  driveForce: 0
 --- !u!1 &6211319787294558097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,7 +2162,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4712083365374358996
 Transform:
   m_ObjectHideFlags: 0
@@ -2368,12 +2525,6 @@ Rigidbody:
 --- !u!54 &1419549351717902105 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 2091293528743350538, guid: 68b269fea53ff3c42bcf81098a87cea0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1060180993574045203}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2232751264072692533 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1173987661816362278, guid: 68b269fea53ff3c42bcf81098a87cea0,
     type: 3}
   m_PrefabInstance: {fileID: 1060180993574045203}
   m_PrefabAsset: {fileID: 0}
