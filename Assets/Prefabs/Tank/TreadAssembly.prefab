@@ -636,7 +636,7 @@ Transform:
   - {fileID: 6304452969945650498}
   - {fileID: 1351073742107518238}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7465609458494098514
 GameObject:
@@ -876,6 +876,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 1.8499999
       objectReference: {fileID: 0}
+    - target: {fileID: 1621557017347446588, guid: d0f5cba9f341e8547b663fc057bfb6a8,
+        type: 3}
+      propertyPath: m_YDrive.positionSpring
+      value: 5000000
+      objectReference: {fileID: 0}
     - target: {fileID: 3242116057473893781, guid: d0f5cba9f341e8547b663fc057bfb6a8,
         type: 3}
       propertyPath: m_Height
@@ -1005,6 +1010,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: 0.5999999
       objectReference: {fileID: 0}
+    - target: {fileID: 1621557017347446588, guid: d0f5cba9f341e8547b663fc057bfb6a8,
+        type: 3}
+      propertyPath: m_YDrive.positionSpring
+      value: 5000000
+      objectReference: {fileID: 0}
     - target: {fileID: 5251195402884224164, guid: d0f5cba9f341e8547b663fc057bfb6a8,
         type: 3}
       propertyPath: m_Layer
@@ -1128,6 +1138,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -1.9000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621557017347446588, guid: d0f5cba9f341e8547b663fc057bfb6a8,
+        type: 3}
+      propertyPath: m_YDrive.positionSpring
+      value: 5000000
       objectReference: {fileID: 0}
     - target: {fileID: 5251195402884224164, guid: d0f5cba9f341e8547b663fc057bfb6a8,
         type: 3}
@@ -1332,6 +1347,11 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.z
       value: -3.15
       objectReference: {fileID: 0}
+    - target: {fileID: 1621557017347446588, guid: d0f5cba9f341e8547b663fc057bfb6a8,
+        type: 3}
+      propertyPath: m_YDrive.positionSpring
+      value: 5000000
+      objectReference: {fileID: 0}
     - target: {fileID: 5251195402884224164, guid: d0f5cba9f341e8547b663fc057bfb6a8,
         type: 3}
       propertyPath: m_Layer
@@ -1455,6 +1475,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: -0.6500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1621557017347446588, guid: d0f5cba9f341e8547b663fc057bfb6a8,
+        type: 3}
+      propertyPath: m_YDrive.positionSpring
+      value: 5000000
       objectReference: {fileID: 0}
     - target: {fileID: 5251195402884224164, guid: d0f5cba9f341e8547b663fc057bfb6a8,
         type: 3}
